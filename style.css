@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+/*header*/
+header {
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+    color: rgb(29, 29, 31);
+    font-size: 20px;
+}
+
+/*nav*/
+nav {
+    background-color: rgb(214, 36, 190);
+}
+
+.active {
+    background-color: red;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.login {
+    float: right;
+}
+
+nav ul li a:hover {
+    background-color: red;
+}
+
+/*home*/
+.home-image img {
+    width: 100%;
+    height: auto;
+}
+
+/*section1*/
+.imgDiv {
+    width: 40%;
+    float: left;
+    margin-top: 15px;
+    border: 1px solid rgb(18, 219, 41);
+}
+
+.imgDiv img {
+    width: 100%;
+}
+
+.textDiv {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: auto;
+}
+
+.title1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+/*section2*/
+.textDiv2 {
+    width: 60%;
+    float: left;
+    overflow: auto;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.imgDiv2 {
+    width: 40%;
+    float: right;
+    margin-top: 15px;
+    border: 1px solid rgb(18, 210, 53);
+}
+
+.imgDiv2 img {
+    width: 100%;
+}
+
+section {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sec1 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+/*footer*/
+footer {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.footertext {
+    font-size: 10px;
+}
+
+.client-name {
+    color: blue;
+}
+
+.footericon {
+    margin-bottom: 15px;
+}
+.footericon i {
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-twitter {
+    color: skyblue;
+}
+
+.fa-instagram {
+    color: brown;
+}
